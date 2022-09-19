@@ -1,0 +1,75 @@
+
+body {
+background-image: url(images/White_squares.jpg); background-size: 20%;
+/*background-color: /\*BurlyWood*\/ #929292;*/
+/* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
+color: black;
+font-family: arial, helvetica, sans-serif;
+}
+
+h1.header {font-size: 5vw; margin-bottom: 1.48vw; padding: 2vw; border-style: solid; border-width: .25vw; border-radius: .5vw; background-color: #7E7E7E}
+
+ul {list-style-type: none}
+
+ul.navbar {padding: 1.5vw; margin: 0vw; display: inline; font-size: 2vw;}
+
+li a:link {color: black;}
+li a:visited {color: black}
+li a:hover {color: white; padding: 1.5vw; margin: 0vw;}
+li.selected {display: inline; margin: 0vw; padding: 1.5vw; background-color: #CFCFCF; border-style: solid; border-width: .25vw;}
+li.button {display: inline; margin: 0vw; padding: 1.5vw; background-color: #7E7E7E; border-style: solid; border-width: .25vw;}
+
+p.p1 {font-size: 2vw; padding: 2vw}
+
+/*Home*/
+
+section.Home {background-color: #7E7E7E; border-style: solid; border-width: .25vw; border-radius: .5vw;}
+
+p.intro {padding-left: 5vw; padding-right: 5vw; padding-bottom: 2vw; font-size: 1.5vw}
+
+/*Resume*/
+
+h2 {padding: 1vw}
+
+section.Resume {background-color: #7E7E7E; border-style: solid; border-width: .25vw; border-radius: .5vw;}
+
+section.ResumeSection1 {margin-bottom: 5vw;}
+
+.Resumep1 {padding-left: 2vw; font-size: 1.5vw; margin: 0vw}
+.Resumep2 {padding-left: 2vw; margin: 0vw; margin-bottom: .5vw; margin-top: 1vw}
+.Resumep3 {padding-left: 2vw; font-size: 1vw; margin: 0vw; margin-bottom: 0vw}
+
+/*Gallery*/
+
+.Galleryp1 {font-size: 3vw; background-color: #7E7E7E; border-style: solid; border-width: .25vw; padding: 2vw;  display: inline-block; margin-bottom: 0vw; margin-left: 2vw}
+
+section.TraditionalDrawings {background-color: #7E7E7E; border-style: solid; border-width: .25vw; padding: 3vw; border-radius: .5vw; margin: 0vw;}
+
+figure.Gallery {border-style: solid; border-width: .25vw; display: inline-block; padding: 2vw; background-color: #CFCFCF;}
+img.GalleryPhoto1 {width: 15vw; border-style: solid; border-width: .25vw;}
+img.LogsPhoto1 {width: 65vw; border-style: solid; border-width: .25vw;}
+
+section.AdobeProjects {background-color: #7E7E7E; border-style: solid; border-width: .25vw; padding: 3vw; border-radius: .5vw; margin: 0vw;}
+
+/*More*/
+
+section.More {background-color: #7E7E7E; border-style: solid; border-width: .25vw; border-radius: .5vw; padding: 2vw;}
+
+h1.More {font-size: 3vw}
+
+p.More
+
+/*Corpus Analysis*/
+
+
+/* ebb: This is a comment in CSS: 
+ * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
+ * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
+ */
+
+ol {list-style-type: lower-alpha;
+padding: 5em;
+
+
+
+}
