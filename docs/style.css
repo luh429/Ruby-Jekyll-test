@@ -1,27 +1,32 @@
 
 body {
-background-image: url(images/White_squares.jpg); background-size: 20%;
-/*background-color: /\*BurlyWood*\/ #929292;*/
-/* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-color: black;
+background-color: #424242;
+color: white;
 font-family: arial, helvetica, sans-serif;
 }
 
 h1.header {font-size: 5vw; margin-bottom: 1.48vw; padding: 2vw; border-style: solid; border-width: .25vw; border-radius: .5vw; background-color: #7E7E7E}
 
-ul {list-style-type: none}
-
+/*Navbar-------------------------------------------------*/
 ul.navbar {padding: 1.5vw; margin: 0vw; display: inline; font-size: 2vw;}
+li {display: inline; margin: 0vw; padding: 1.5vw; background-color: #7E7E7E; border-style: solid; border-width: .25vw;}
 
 li a:link {color: black;}
 li a:visited {color: black}
-li a:hover {color: white; padding: 1.5vw; margin: 0vw;}
-li.selected {display: inline; margin: 0vw; padding: 1.5vw; background-color: #CFCFCF; border-style: solid; border-width: .25vw;}
-li.button {display: inline; margin: 0vw; padding: 1.5vw; background-color: #7E7E7E; border-style: solid; border-width: .25vw;}
+li a:hover {
+color: white;
+}
+li:hover {
+background-color: black;
+}
 
 p.p1 {font-size: 2vw; padding: 2vw}
 
 /*Home*/
+img.profile{
+    width: 15%;
+    margin: 3%;
+}
 
 section.Home {background-color: #7E7E7E; border-style: solid; border-width: .25vw; border-radius: .5vw;}
 
@@ -35,9 +40,9 @@ section.Resume {background-color: #7E7E7E; border-style: solid; border-width: .2
 
 section.ResumeSection1 {margin-bottom: 5vw;}
 
-.Resumep1 {padding-left: 2vw; font-size: 1.5vw; margin: 0vw}
+.Resumep1 {padding-left: 2vw; font-size: 2vw; margin: 0vw}
 .Resumep2 {padding-left: 2vw; margin: 0vw; margin-bottom: .5vw; margin-top: 1vw}
-.Resumep3 {padding-left: 2vw; font-size: 1vw; margin: 0vw; margin-bottom: 0vw}
+.Resumep3 {padding-left: 2vw; font-size: 1.5vw; margin: 0vw; margin-bottom: 0vw}
 
 /*Gallery*/
 
